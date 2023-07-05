@@ -34,4 +34,32 @@ To run the application locally, follow these steps:
 
 2.Navigate to the project directory: cd flatdango-movie-catalogue
 
+3.Install dependencies: No external dependencies are required.
+
+4.Start the JSON server: json-server --watch db.json --port 3000
+
+5.Open the index.html file in your preferred web browser.
+
+# Future Enhancements
+The following enhancements can be made to the application:
+
+-Implement ticket purchasing functionality to allow users to buy tickets for movies.
+
+-Add validation and error handling for user inputs and server responses.
+
+-Improve the overall user interface and design to enhance the user experience.
+
+-Implement user authentication and authorization to restrict certain actions to authenticated users only.
+
+-Integrate with a real movie database or API to fetch real-time movie data.
+
+# Contributing
+Contributions to the project are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+# License
+The project is licensed under the MIT License. Feel free to use and modify the code as per your needs.
+
+# Author
+It is written by Philip Ogaye.
+
 
