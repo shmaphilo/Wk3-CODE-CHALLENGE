@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.adsttc.com/media/images/5f7d/fef2/63c0/170a/9100/0273/slideshow/Jiangnan_Photography.jpg?1602092773");
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+#movie-details-container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+#movie-details-container img {
+    width: 100%;
+    height: auto;
+}
+
+#films {
+    list-style: none;
+    padding: 0;
+}
+
+.film-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.film-item.sold-out {
+    background-color: #f9f9f9;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+.button-container button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #555;
+}
+
+
+  
